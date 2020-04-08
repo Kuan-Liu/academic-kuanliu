@@ -14,13 +14,13 @@ role: PhD Candidate in Biostatistics
 
 # Organizations/Affiliations
 organizations:
-- name: University of Toronto
+- name: Dalla Lana School of Public Health, University of Toronto
   url: "http://www.dlsph.utoronto.ca/division/biostatistics/"
 - name: The Hospital for Sick Children
   url: "http://www.sickkids.ca/Research/Child-Health-Evaluative-Sciences/index.html"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a fifth year PhD student in Biostatistics at Dalla Lana School of Public Health under the supervision of Dr. [Eleanor Pullenayegum](http://www.sickkids.ca/AboutSickKids/Directory/People/P/Eleanor-Pullenayegum-staff-profile.html), a senior scientist at Sickkids.
 
 interests:
 - Causal Inference
