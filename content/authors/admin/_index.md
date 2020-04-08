@@ -47,7 +47,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:kuan.liu@mail.utoronto.ca".
+  link: mailto:kuan.liu@mail.utoronto.ca
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/KuanLiu2
