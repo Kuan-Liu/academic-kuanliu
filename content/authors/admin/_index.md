@@ -31,13 +31,13 @@ education:
   courses:
   - course: PhD in Biostatistics
     institution: University of Toronto
-    year: 2015-2020
+    year: 2020 (Expected)
   - course: MMath in Statistics (Biostatistics)
     institution: University of Waterloo
-    year: 2011-2012
+    year: 2012
   - course: BSc Honour in Statistics
     institution: University of Alberta
-    year: 2007-2011
+    year: 2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
