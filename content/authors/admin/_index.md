@@ -48,15 +48,18 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:kuan.liu@mail.utoronto.ca
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/KuanLiu2
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.ca/citations?user=m5NSti4AAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/Kuan-Liu
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/kuan-liu-uoft/
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/KuanLiu2
   
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -72,6 +75,7 @@ email: "kuan.liu@mail.utoronto.ca"
 # user_groups:
 # - Researchers
 # - Visitors
+
 ---
 
 I am a fifth year PhD student in Biostatistics at Dalla Lana School of Public Health under the supervision of Dr. [Eleanor Pullenayegum](http://www.sickkids.ca/AboutSickKids/Directory/People/P/Eleanor-Pullenayegum-staff-profile.html), a senior scientist at Sickkids.
