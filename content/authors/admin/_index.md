@@ -74,4 +74,4 @@ email: "kuan.liu@mail.utoronto.ca"
 # - Visitors
 ---
 
-
+I am a fifth year PhD student in Biostatistics at Dalla Lana School of Public Health under the supervision of Dr. [Eleanor Pullenayegum](http://www.sickkids.ca/AboutSickKids/Directory/People/P/Eleanor-Pullenayegum-staff-profile.html), a senior scientist at Sickkids.
