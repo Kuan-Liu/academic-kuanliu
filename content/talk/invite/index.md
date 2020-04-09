@@ -1,7 +1,7 @@
 ---
 title: Spatial analysis of cannabis and tobacco consumption among Canadian youth and adults
 event: Academic Theme Conference
-# event_url: https://example.org
+event_url: https://crdcn.org/crdcn-national-policy-challenge
 
 location: Ottawa, ON
 address:
