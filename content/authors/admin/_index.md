@@ -79,4 +79,6 @@ email: "kuan.liu@mail.utoronto.ca"
 
 ---
 
-I am a fifth year PhD student in Biostatistics at Dalla Lana School of Public Health under the supervision of Dr. [Eleanor Pullenayegum](http://www.sickkids.ca/AboutSickKids/Directory/People/P/Eleanor-Pullenayegum-staff-profile.html), a senior scientist at Sickkids. My PhD research focuses on developing novel Bayesian estimation methods that permit causal inference in longitudinal observational studies using administrative databases. I am a [CIHR doctoral award](http://webapps.cihr-irsc.gc.ca/funding/detail_e?pResearchId=8942733&p_version=CIHR&p_language=E&p_session_id=3259715) recipient. 
+I am a fifth year PhD student in Biostatistics at [Dalla Lana School of Public Health](http://www.dlsph.utoronto.ca/student-profile/liu-kuan/) under the supervision of Dr. [Eleanor Pullenayegum](http://www.sickkids.ca/AboutSickKids/Directory/People/P/Eleanor-Pullenayegum-staff-profile.html), a senior scientist at the Hospital for Sick Children. 
+
+My PhD research focuses on developing novel Bayesian estimation methods that permit causal inference in longitudinal observational studies using administrative databases. I am a [CIHR doctoral award](http://webapps.cihr-irsc.gc.ca/funding/detail_e?pResearchId=8942733&p_version=CIHR&p_language=E&p_session_id=3259715) recipient. 
