@@ -2,7 +2,7 @@
 title: COVID-19 Data Visualization
 summary: Heatmap of Daily New Confirmed COVID-19 cases in Ontario and Quebec and demographic pyramid plot on Ontario confirmed, recovered and fatal cases by age group and sex.
 tags:
-- Visaulization
+- Visualization
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
