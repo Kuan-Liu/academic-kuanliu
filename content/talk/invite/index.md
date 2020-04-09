@@ -1,15 +1,15 @@
 ---
 title: Spatial analysis of cannabis and tobacco consumption among Canadian youth and adults
-event: Academic Theme Conference
+event: The Finalists' meeting of the 2018-2019 Canadian Research Data Centre Network National Policy Challenge
 event_url: https://crdcn.org/crdcn-national-policy-challenge
 
 location: Ottawa, ON
-address:
-  street: 
-  city: Ottawa
-  region: ON
-  postcode: 
-  country: Canada
+# address:
+#   street: 
+#   city: Ottawa
+#   region: ON
+#   postcode: 
+#   country: Canada
 
 summary: Invited presentation talk at the Finalists' meeting of the 2018-2019 Canadian Research Data Centre Network National Policy Challenge at Statistics Canada on June 11, 2019. 
 
@@ -17,7 +17,7 @@ summary: Invited presentation talk at the Finalists' meeting of the 2018-2019 Ca
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2019-06-11"
 # date_end: "2030-06-01"
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -61,14 +61,19 @@ url_video: ""
 math: true
 ---
 
-# {{% alert note %}}
-# Click on the **Slides** button above to view the built-in slides feature.
-# {{% /alert %}}
+**Highlighted Study Results**
+- Young adults (20-24 years of age), male sex, single and actively-employed are associated with higher probability of being a current cannabis user
+- Adults (25-64 year of age) and not actively-employed are associated with higher probability of being a current smoker
+- Greater provincial variation on cannabis consumption compared to tobacco consumption (both statistically significant).
+- Factors likely contributing to geo-variation:
+    - Demographic differences
+    - Jurisdiction-level policy and infrastructure differences
 
-Slides can be added in a few ways:
+**Suggested policy implementations**
+- Allocation of funds and resources of cannabis consumption related health promotion and prevention programs at hospital, community centre and primary care level
+- Strategic licensing of cannabis retailers based on location of demand to increase potential taxation revenue
+- Restrict youth consumption through implementing educational programs at school level and public area smoking restrictions
+- Policy-making should consider geographic prevalence of consumption as well as user profiles
 
-- **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.
+
