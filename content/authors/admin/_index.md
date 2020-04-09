@@ -24,8 +24,9 @@ bio: I am a fifth year PhD student in Biostatistics at Dalla Lana School of Publ
 
 interests:
 - Causal Inference
-- Applied Bayesian Analysis
+- Bayesian Estimation
 - Longitudinal Data Analysis
+- Latent Class Analysis
 - Data visualization
 
 education:
