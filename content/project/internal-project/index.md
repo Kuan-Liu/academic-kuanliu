@@ -8,9 +8,12 @@ date: "2020-04-09T00:00:00Z"
 # Optional external URL for project (replaces project detail page).
 external_link: "https://rpubs.com/kuanstat/testing_can"
 
-# image:
-#   caption: 
-#   focal_point: Smart
+
+
+image:
+  placement: 1
+  caption:
+  focal_point: Smart
 
 # links:
 # - icon: twitter

@@ -9,6 +9,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: https://github.com/Kuan-Liu/Visualization-of-Ontario-Covid-19-cases
 
 image:
+  placement: 1
   caption: Heatmap of Daily New Confirmed COVID-19 Cases in Quebec
   focal_point: Smart
 ---
