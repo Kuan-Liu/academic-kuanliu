@@ -61,9 +61,9 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  image = "featured.gif"  # Name of image in `static/img/`.
+  image = "ezgif.com-gif-maker.gif"  # Name of image in `static/img/`.
   image_size = "actual"
-  image_position = "center"
+  image_position = "right"
   image_parallax = true
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
