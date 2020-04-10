@@ -7,6 +7,8 @@ image:
   placement: 3
   caption:
 ---
+**For R code please see project post for details.**
+**Try open image in new tab (right click on mouse) to view the plot in its orginal scale.**
 
 ## Daily New Confirmed COVID-19 cases in Ontario
 
@@ -23,6 +25,4 @@ image:
 ## Daily New Confirmed COVID-19 cases in Alberta
 
 ![Heatmap Alberta](/img/covid19_abcase_heatmap.png)
-
-**For R code please see project post for details.**
 

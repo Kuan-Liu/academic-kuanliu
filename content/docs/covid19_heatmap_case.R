@@ -109,7 +109,7 @@ ggplot(on_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
         axis.title = element_text(size=6),
         axis.text = element_text(size=6),
         axis.text.x = element_text(angle = 90, hjust = 0),
-        plot.margin = margin(0,0, 0, 0, "cm"),
+        plot.margin = margin(0,0.5, 0, 0, "cm"),
         plot.caption = element_blank())
 
 dev.off()
@@ -139,7 +139,7 @@ ggplot(bc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
 
 dev.off()
 
-png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_qccase_heatmap.png", width = 6.5, height = 4, units = "in", res = 300)
+png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_qccase_heatmap.png", width = 8, height = 4.5, units = "in", res = 300)
 
 ggplot(qc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=health_region)) +
   coord_equal()+
@@ -159,7 +159,7 @@ ggplot(qc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
         axis.title = element_text(size=6),
         axis.text = element_text(size=6),
         axis.text.x = element_text(angle = 90, hjust = 0),
-        plot.margin = margin(0,0, 0, 0, "cm"),
+        plot.margin = margin(0,0.5, 0, 0, "cm"),
         plot.caption = element_blank())
 
 dev.off()
