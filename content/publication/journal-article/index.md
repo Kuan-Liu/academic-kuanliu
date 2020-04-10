@@ -18,7 +18,7 @@ doi: "https://doi.org/10.1177/0962280219900362"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Statistical Methods in Medical Research, 1*(1)"
+publication: "*Statistical Methods in Medical Research*"
 publication_short: ""
 
 # abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
@@ -65,4 +65,6 @@ image:
 
 ---
 
+**Abstract**
 
+Constructing causal inference methods to handle longitudinal data in observational studies is of high interest. In an observational setting, treatment assignment at each clinical visit follows a decision strategy where the treating clinician selects treatment based on current and past clinical measurements as well as treatment histories. These time-dependent structures, coupled with inherent correlations between and within each visit, add on to the data complexity. Despite recent interest in Bayesian causal methods, only a limited literature has explored approaches to handle longitudinal data and no method handles repeatedly measured outcomes. In this paper, we extended two Bayesian approaches: Bayesian estimation of marginal structural models and two-stage Bayesian propensity score analysis to handle a repeatedly measured outcome. Our proposed methods permit causal estimation of treatment effects at each visit. Time-dependent inverse probability of treatment weights are obtained from the Markov chain Monte Carlo samples of the posterior treatment assignment model for each follow-up visit. We use a simulation study to validate and compare the proposed methods and illustrate our approaches through a study of intravenous immunoglobulin therapy in treating newly diagnosed juvenile dermatomyositis.
