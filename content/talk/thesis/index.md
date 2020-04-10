@@ -11,7 +11,7 @@ location: Toronto, ON
 #   postcode: 
 #   country: Canada
 
-summary: Phd Seminar presentation on thesis research
+summary: PhD Seminar presentation on thesis research.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
