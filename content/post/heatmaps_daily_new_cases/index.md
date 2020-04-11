@@ -1,5 +1,5 @@
 ---
-title: Heatmaps of Daily New Confirmed COVID-19 cases in various provinces of Canada (update daily)
+title: Heatmaps of Daily New Confirmed COVID-19 cases in various provinces in Canada (update daily)
 date: 2020-04-09
 math: false
 diagram: false
