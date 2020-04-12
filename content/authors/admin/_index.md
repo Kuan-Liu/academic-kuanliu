@@ -27,7 +27,7 @@ interests:
 - Bayesian Estimation
 - Longitudinal Data Analysis
 - Latent Class Analysis
-- Data visualization
+- Data Visualization
 
 education:
   courses:
