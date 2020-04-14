@@ -6,7 +6,7 @@ tags:
 date: "2020-04-13T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: kuan-liu.shinyapps.io/canada_dash/
+external_link: https://kuan-liu.shinyapps.io/canada_dash/
 
 image:
   placement: 1
