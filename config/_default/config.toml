@@ -13,9 +13,6 @@ title = "Kuan Liu"
 baseurl = "https://kuan-liu.com"
 
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
 
 # Enable analytics by entering your Google Analytics tracking ID
 GoogleAnalytics = "UA-164038176-1"
