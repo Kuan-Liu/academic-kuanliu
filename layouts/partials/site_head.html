@@ -200,7 +200,7 @@
   {{ partial "cookie_consent" . }}
 
   {{ partial "custom_head" . }}
-  {{ template "_internal/google_analytics.html" . }}
+
   <title>{{ if not .IsHome }}{{ .Params.name | default .Title }} | {{ end }}{{ site.Title }}</title>
 
 </head>
