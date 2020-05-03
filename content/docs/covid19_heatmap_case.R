@@ -165,7 +165,7 @@ ggplot(qc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
 dev.off()
 
 
-png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_abcase_heatmap.png", width = 9, height = 1.5, units = "in", res = 300)
+png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_abcase_heatmap.png", width = 10, height = 2, units = "in", res = 300)
 
 ggplot(ab_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=health_region)) +
   coord_equal()+
