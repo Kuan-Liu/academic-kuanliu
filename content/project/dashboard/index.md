@@ -1,6 +1,6 @@
 ---
 title: COVID-19 Canada Dashboard
-summary: Dashboard includes interactive information on Canada nationwide, Toronto, Ontario and Quebec COVID-19 data. Update daily.
+summary: Dashboard includes interactive information on Canada nationwide, Toronto, Ontario and Quebec COVID-19 data.
 tags:
 - Visualization
 date: "2020-04-13T00:00:00Z"

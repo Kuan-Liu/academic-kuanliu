@@ -1,6 +1,6 @@
 ---
 title: COVID-19 Testing trend in Canada
-summary: Descriptive analysis on COVID-19 Testing Data and Trend in Canada with [Alexandra Bushby](https://www.linkedin.com/in/alexandra-bushby-571b65168/) and [Thai-son Tang](https://www.linkedin.com/in/thaison-tang/). Project website updated daily. R code available on [Github](https://github.com/Kuan-Liu/Kuan-Liu-testing_can).
+summary: Descriptive analysis on COVID-19 Testing Data and Trend in Canada with [Alexandra Bushby](https://www.linkedin.com/in/alexandra-bushby-571b65168/) and [Thai-son Tang](https://www.linkedin.com/in/thaison-tang/). R code available on [Github](https://github.com/Kuan-Liu/Kuan-Liu-testing_can).
 tags: 
 - Visualization
 date: "2020-04-09T00:00:00Z"

@@ -89,7 +89,7 @@ ab_case$health_region<- factor(ab_case$health_region, levels=region_order[1:dim(
 
 # 6.plot;
 
-png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_oncase_heatmap.png", width = 14, height = 6, units = "in", res = 300)
+png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_oncase_heatmap.png", width = 16, height = 6, units = "in", res = 300)
 
 ggplot(on_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=health_region)) +
   coord_equal()+
@@ -114,7 +114,7 @@ ggplot(on_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
 
 dev.off()
 
-png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_bccase_heatmap.png", width = 11, height = 2, units = "in", res = 300)
+png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_bccase_heatmap.png", width = 13, height = 2, units = "in", res = 300)
 
 ggplot(bc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=health_region)) +
   coord_equal()+
@@ -139,7 +139,7 @@ ggplot(bc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
 
 dev.off()
 
-png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_qccase_heatmap.png", width = 12, height = 4.5, units = "in", res = 300)
+png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_qccase_heatmap.png", width = 16, height = 4.5, units = "in", res = 300)
 
 ggplot(qc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=health_region)) +
   coord_equal()+
@@ -165,7 +165,7 @@ ggplot(qc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
 dev.off()
 
 
-png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_abcase_heatmap.png", width = 12, height = 2, units = "in", res = 300)
+png("C:/Users/Kuan/Documents/GitHub/academic-kuanliu/static/img/covid19_abcase_heatmap.png", width = 14, height = 2, units = "in", res = 300)
 
 ggplot(ab_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=health_region)) +
   coord_equal()+

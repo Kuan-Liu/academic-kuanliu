@@ -1,5 +1,5 @@
 ---
-title: Heatmaps of Daily New Confirmed COVID-19 cases in various provinces in Canada (update daily)
+title: Heatmaps of Daily New Confirmed COVID-19 cases in various provinces in Canada
 date: 2020-04-09
 math: false
 diagram: false
@@ -9,6 +9,7 @@ image:
 ---
 **For R code please see project post for details.**
 **Try open image in new tab (right click on mouse) to view the plot in its orginal scale.**
+**Plots will nolonger be updated**
 
 ## Daily New Confirmed COVID-19 cases in Ontario
 
