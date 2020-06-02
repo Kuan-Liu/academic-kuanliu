@@ -9,6 +9,7 @@ image:
 ---
 **For R code please see project post for details.**
 **Try open image in new tab (right click on mouse) to view the plot in its orginal scale.**
+
 **Plots will nolonger be updated**
 
 ## Daily New Confirmed COVID-19 cases in Ontario
