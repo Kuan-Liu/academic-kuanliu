@@ -1,5 +1,5 @@
 ---
-title: Estimation of Regional Temporal COVID-19 Reproduction Number 
+title: Estimation of Regional Temporal COVID-19 Reproduction Number in Canada
 summary: Estimating Temporal COVID-19 Reproduction Number for Alberta, British Columbia, Ontario and Quebec as well as Montreal and Toronto.
 tags:
 date: "2020-06-01T00:00:00Z"
