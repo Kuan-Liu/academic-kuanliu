@@ -1,5 +1,5 @@
 ---
-title: Remote learning student checklist for sucess
+title: Remote learning student checklist for success
 date: 2020-08-15
 math: false
 diagram: false
