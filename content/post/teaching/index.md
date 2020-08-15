@@ -1,26 +1,26 @@
 ---
 title: "Remote learning student checklist for sucess"
-diagram: no
-date: '2020-08-15'
-math: no
+date: 2020-08-15
+math: false
+diagram: false
 image:
-  caption: null
   placement: 3
+  caption: This a general version of the remote learning study checklist I have created for an intro statistics course at UTSC this coming term.
 ---
 
-Here is my drafted study checklist for remote learning. This a general version of the study checklist I have created for an intro statistics course at UTSC this coming term. Hope you find it useful. As always, free feel to use and modify this checklist for your course! Happy online teaching!
+**Here is my drafted study checklist for remote learning. This a general version of the study checklist I have created for an intro statistics course at UTSC this coming term. Hope you find it useful. As always, free feel to use and modify this checklist for your course! Happy online teaching!**
 
 
 # Remote learning checklist for success
 
 ## 1.	Technology and internet connectivity requirements for the course
 
-    * Have access to the required textbook, course webpage, and educational software
-    * Have a high-speed internet connect
-    * Have speakers or headphones, microphone and video camera for 
-        * listening to lectures/tutorials, 
-        * engaging in online discussions,
-        * and taking midterm and final exams (video camera is required for invigilation)
+### Have access to the required textbook, course webpage, and educational software
+### Have a high-speed internet connect
+### Have speakers or headphones, microphone and video camera for 
+    * listening to lectures/tutorials, 
+    * engaging in online discussions,
+    * and taking midterm and final exams (video camera is required for invigilation)
 
 
 # <ul class="task-list">
