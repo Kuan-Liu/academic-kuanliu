@@ -5,10 +5,10 @@ math: false
 diagram: false
 image:
   placement: 3
-  caption: This a general version of the remote learning study checklist I have created for an intro statistics course at UTSC this coming term.
+  caption: This is a general version of the remote learning study checklist I created for an intro statistics course at UTSC this coming term.
 ---
 
-Here is my drafted study checklist for remote learning. This a general version of the study checklist I have created for an intro statistics course at UTSC this coming term. Hope you find it useful. As always, free feel to use and modify this checklist for your course! Happy online teaching!
+Here is my drafted study checklist for remote learning. This is a general version of the study checklist I created for an intro statistics course at UTSC this coming term. Hope you find it useful. As always, free feel to use and modify this checklist for your course! Happy online teaching!
 
 **Download the PDF version of the study checklist [click link](/files/checklist.pdf)**
 
@@ -29,7 +29,7 @@ Here is my drafted study checklist for remote learning. This a general version o
 <li><input type="checkbox" disabled"" class="task-list-item"> Attend weekly lecture and tutorials (check time zone difference for remote learning)</li>
 <li><input type="checkbox" disabled"" class="task-list-item"> Create a study calendar marking down lecture, tutorial, quiz, assignment and exam dates, as well as other important academic dates</li>
 <li><input type="checkbox" disabled"" class="task-list-item"> Create a weekly study schedule</li>
-<li><input type="checkbox" disabled"" class="task-list-item"> Check in daily for course announcements and course discussion forums</li>
+<li><input type="checkbox" disabled"" class="task-list-item"> Check in daily for course announcements and course discussion forum</li>
 <li><input type="checkbox" disabled"" class="task-list-item"> Connect with other students, form study groups and actively participate in the discussion forum</li>
 <li><input type="checkbox" disabled"" class="task-list-item"> Ask for help when you need it</li>
 </ul>
