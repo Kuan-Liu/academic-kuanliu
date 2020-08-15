@@ -10,7 +10,6 @@ image:
 
 Here is my drafted study checklist for remote learning. This a general version of the study checklist I have created for an intro statistics course at UTSC this coming term. Hope you find it useful. As always, free feel to use and modify this checklist for your course! Happy online teaching!
 
-{{ replace .Content "disabled class" "class" | safeHTML }}
 
 # Remote learning checklist for success
 
