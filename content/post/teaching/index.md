@@ -10,11 +10,17 @@ image:
 
 **Here is my drafted study checklist for remote learning. This a general version of the study checklist I have created for an intro statistics course at UTSC this coming term. Hope you find it useful. As always, free feel to use and modify this checklist for your course! Happy online teaching!**
 
+**Download the PDF version of the study checklist [click link](/files/checklist.pdf)**
 
 # Remote learning checklist for success
 
 ## 1.	Technology and internet connectivity requirements for the course
 
+<ul class="task-list">
+<li><input type="checkbox" disabled="" class="task-list-item"> Have access to the required textbook, course webpage, and educational software</li>
+<li><input type="checkbox" disabled="" class="task-list-item"> Have a high-speed internet connect</li>
+<li><input type="checkbox" disabled="" class="task-list-item"> Have speakers or headphones, microphone and video camera</li>
+</ul>
 ### - [ ] Have access to the required textbook, course webpage, and educational software
 ### - [ ] Have a high-speed internet connect
 ### - [ ] Have speakers or headphones, microphone and video camera for 
