@@ -25,50 +25,18 @@ library(tidyverse)
 ```
 
 ```
-## Warning: package 'tidyverse' was built under R version 3.5.3
+## -- Attaching packages --------------------------------------------------------- tidyverse 1.3.0 --
 ```
 
 ```
-## -- Attaching packages ---------------------------------------- tidyverse 1.3.0 --
+## v ggplot2 3.3.2     v purrr   0.3.4
+## v tibble  3.0.3     v dplyr   1.0.0
+## v tidyr   1.1.0     v stringr 1.4.0
+## v readr   1.3.1     v forcats 0.5.0
 ```
 
 ```
-## v ggplot2 3.3.0     v purrr   0.3.3
-## v tibble  3.0.0     v dplyr   0.8.3
-## v tidyr   1.0.2     v stringr 1.4.0
-## v readr   1.3.1     v forcats 0.4.0
-```
-
-```
-## Warning: package 'ggplot2' was built under R version 3.5.3
-```
-
-```
-## Warning: package 'tibble' was built under R version 3.5.3
-```
-
-```
-## Warning: package 'tidyr' was built under R version 3.5.3
-```
-
-```
-## Warning: package 'readr' was built under R version 3.5.3
-```
-
-```
-## Warning: package 'purrr' was built under R version 3.5.3
-```
-
-```
-## Warning: package 'dplyr' was built under R version 3.5.3
-```
-
-```
-## Warning: package 'forcats' was built under R version 3.5.3
-```
-
-```
-## -- Conflicts ------------------------------------------- tidyverse_conflicts() --
+## -- Conflicts ------------------------------------------------------------ tidyverse_conflicts() --
 ## x dplyr::filter() masks stats::filter()
 ## x dplyr::lag()    masks stats::lag()
 ```
@@ -77,10 +45,6 @@ library(tidyverse)
 library(ggplot2)
 library(dplyr)
 library(reshape2)
-```
-
-```
-## Warning: package 'reshape2' was built under R version 3.5.3
 ```
 
 ```
@@ -96,10 +60,6 @@ library(reshape2)
 
 ```r
 library(RCurl)
-```
-
-```
-## Warning: package 'RCurl' was built under R version 3.5.3
 ```
 
 ```
@@ -121,10 +81,37 @@ can_case <- read.csv(text=x, header = TRUE, sep = ",", encoding = 'UTF-8')
 can_case$date_report<-strftime(strptime(can_case$date_report,"%d-%m-%Y"),"%m-%d")
 
 on_case <- filter(can_case, province == "Ontario")  %>% group_by(date_report,health_region) %>% summarise(Freq=n())
-qc_case <- filter(can_case, province == "Quebec")  %>% group_by(date_report,health_region) %>% summarise(Freq=n())
-bc_case <- filter(can_case, province == "BC")  %>% group_by(date_report,health_region) %>% summarise(Freq=n())
-ab_case <- filter(can_case, province == "Alberta")  %>% group_by(date_report,health_region) %>% summarise(Freq=n())
+```
 
+```
+## `summarise()` regrouping output by 'date_report' (override with `.groups` argument)
+```
+
+```r
+qc_case <- filter(can_case, province == "Quebec")  %>% group_by(date_report,health_region) %>% summarise(Freq=n())
+```
+
+```
+## `summarise()` regrouping output by 'date_report' (override with `.groups` argument)
+```
+
+```r
+bc_case <- filter(can_case, province == "BC")  %>% group_by(date_report,health_region) %>% summarise(Freq=n())
+```
+
+```
+## `summarise()` regrouping output by 'date_report' (override with `.groups` argument)
+```
+
+```r
+ab_case <- filter(can_case, province == "Alberta")  %>% group_by(date_report,health_region) %>% summarise(Freq=n())
+```
+
+```
+## `summarise()` regrouping output by 'date_report' (override with `.groups` argument)
+```
+
+```r
 # If you desire to plot after a specific date, for example before I only extract case data reported after March 5th, 2020, 
 #you can uncomment and run the code line below;
 # on_case <- filter(can_case, province == "Ontario" & date_report > "2020-03-05")  %>% group_by(date_report,health_region) %>% summarise(Freq=n())
@@ -170,6 +157,13 @@ ab_case <- ab_case %>%
 
 # 5.1 reorder health region by case frequency count, note that toronto should have the highest cumulative frequncy;
 on_case_region<- filter(can_case, province == "Ontario" )  %>% group_by(health_region) %>% summarise(Freq=n())
+```
+
+```
+## `summarise()` ungrouping output (override with `.groups` argument)
+```
+
+```r
 region_order <- unlist(on_case_region[order(on_case_region$Freq),][,1]) #save new region order by total case frequency to a vector;
 
 # 5.2 update original level to the new ordered regional level;
@@ -177,14 +171,35 @@ on_case$health_region<- factor(on_case$health_region, levels=region_order[1:dim(
 
 # 5.3 update for QC and BC
 qc_case_region<- filter(can_case, province == "Quebec" )  %>% group_by(health_region) %>% summarise(Freq=n())
+```
+
+```
+## `summarise()` ungrouping output (override with `.groups` argument)
+```
+
+```r
 region_order <- unlist(qc_case_region[order(qc_case_region$Freq),][,1]) #save new region order by total case frequency to a vector;
 qc_case$health_region<- factor(qc_case$health_region, levels=region_order[1:dim(qc_case_region)[1]])
 
 bc_case_region<- filter(can_case, province == "BC" )  %>% group_by(health_region) %>% summarise(Freq=n())
+```
+
+```
+## `summarise()` ungrouping output (override with `.groups` argument)
+```
+
+```r
 region_order <- unlist(bc_case_region[order(bc_case_region$Freq),][,1]) #save new region order by total case frequency to a vector;
 bc_case$health_region<- factor(bc_case$health_region, levels=region_order[1:dim(bc_case_region)[1]])
 
 ab_case_region<- filter(can_case, province == "Alberta" )  %>% group_by(health_region) %>% summarise(Freq=n())
+```
+
+```
+## `summarise()` ungrouping output (override with `.groups` argument)
+```
+
+```r
 region_order <- unlist(ab_case_region[order(ab_case_region$Freq),][,1]) #save new region order by total case frequency to a vector;
 ab_case$health_region<- factor(ab_case$health_region, levels=region_order[1:dim(ab_case_region)[1]])
 
@@ -214,7 +229,7 @@ ggplot(on_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
         plot.caption = element_text(hjust=1, size=7)) 
 ```
 
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
+<img src="/docs/rmarkdown_files/figure-html/unnamed-chunk-1-1.png" width="672" />
 
 ```r
 # dev.off()
@@ -243,7 +258,7 @@ ggplot(bc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
         plot.caption = element_text(hjust=1, size=7)) 
 ```
 
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-2.png)
+<img src="/docs/rmarkdown_files/figure-html/unnamed-chunk-1-2.png" width="672" />
 
 ```r
 # dev.off()
@@ -272,7 +287,7 @@ ggplot(qc_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
         plot.caption = element_text(hjust=1, size=7)) 
 ```
 
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-3.png)
+<img src="/docs/rmarkdown_files/figure-html/unnamed-chunk-1-3.png" width="672" />
 
 ```r
 # dev.off()
@@ -302,7 +317,7 @@ ggplot(ab_case, aes( x=as.factor(reorder(date_report, desc(date_report))),y=heal
         plot.caption = element_text(hjust=1, size=7)) 
 ```
 
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-4.png)
+<img src="/docs/rmarkdown_files/figure-html/unnamed-chunk-1-4.png" width="672" />
 
 ```r
 # dev.off()
