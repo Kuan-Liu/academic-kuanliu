@@ -8,7 +8,7 @@ image:
   caption: This a general version of the remote learning study checklist I have created for an intro statistics course at UTSC this coming term.
 ---
 
-**Here is my drafted study checklist for remote learning. This a general version of the study checklist I have created for an intro statistics course at UTSC this coming term. Hope you find it useful. As always, free feel to use and modify this checklist for your course! Happy online teaching!**
+Here is my drafted study checklist for remote learning. This a general version of the study checklist I have created for an intro statistics course at UTSC this coming term. Hope you find it useful. As always, free feel to use and modify this checklist for your course! Happy online teaching!
 
 **Download the PDF version of the study checklist [click link](/files/checklist.pdf)**
 
