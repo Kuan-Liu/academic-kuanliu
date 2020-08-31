@@ -1,30 +1,22 @@
 ---
-title: Heatmaps of Daily New Confirmed COVID-19 cases in various provinces in Canada
-date: 2020-04-09
+title: COVID-19 Canada Testing Dashboard
+date: 2020-08-31
 math: false
 diagram: false
 image:
   placement: 3
   caption:
 ---
-**For R code please see project post for details.**
-**Try open image in new tab (right click on mouse) to view the plot in its orginal scale.**
 
-**Plots will nolonger be updated**
+**Over the past weekend, I created an interactive COVID-19 Canada Testing Data Dashboard using Flexdashboard, Rmarkdown and Shiny. The dashboard is now [online](https://kuan-liu.shinyapps.io/Testing_Dash/).**
 
-## Daily New Confirmed COVID-19 cases in Ontario
-
-![Heatmap Ontario](/img/covid19_oncase_heatmap.png)
-## Daily New Confirmed COVID-19 cases in Quebec
-
-![Heatmap Quebec](/img/covid19_qccase_heatmap.png)
+Canada data used in this dashboard use data provided by [the COVID-19 Canada Open Data Working Group](https://github.com/ishaberry/Covid19Canada) and Our World In Data, https://github.com/owid/covid-19-data/tree/master/public/data/.
 
 
-## Daily New Confirmed COVID-19 cases in British Columbia
 
-![Heatmap British Columbia](/img/covid19_bccase_heatmap.png)
+## Preview of Dashboard contents
 
-## Daily New Confirmed COVID-19 cases in Alberta
+![Summary](/img/snippeek.png)
 
-![Heatmap Alberta](/img/covid19_abcase_heatmap.png)
+
 

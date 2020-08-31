@@ -1,12 +1,12 @@
 ---
-title: COVID-19 Canada Testing Dashboard
-summary: Descriptive analysis on COVID-19 Testing Data and Trend in Canada. R code available on [Github](https://github.com/Kuan-Liu/Testing_Dash).
+title: COVID-19 Testing trend in Canada
+summary: Descriptive analysis on COVID-19 Testing Data and Trend in Canada with [Alexandra Bushby](https://www.linkedin.com/in/alexandra-bushby-571b65168/) and [Thai-son Tang](https://www.linkedin.com/in/thaison-tang/). R code available on [Github](https://github.com/Kuan-Liu/Kuan-Liu-testing_can).
 tags: 
 - Visualization
-date: "2020-08-31T00:00:00Z"
+date: "2020-04-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://kuan-liu.shinyapps.io/Testing_Dash/"
+external_link: "https://rpubs.com/kuanstat/testing_can"
 
 
 
