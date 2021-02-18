@@ -33,7 +33,7 @@ education:
   courses:
   - course: PhD in Biostatistics
     institution: University of Toronto
-    year: 2020 (Expected)
+    year: 2021
   - course: MMath in Statistics (Biostatistics)
     institution: University of Waterloo
     year: 2012
